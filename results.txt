@@ -1,0 +1,23 @@
+same Calculator instance
+ 1: c1.add(1, 2)	-> 3
+ 2: c2.add(8, 3)	-> 11
+ 3: c1.add("1", "1.600")	-> 2.6
+ 4: c1.add("three", "1.600")	-> 4.6
+ 5: c1.add("cinco", "siete")	-> 12
+ 6: c1.add("семь", "восемь")	-> 15
+ 7: c1.add("III", "   VIII")	-> 11
+ 8: c1.add("三", "五")		-> 8
+ 9: c1.add("0", "X")		-> 10.0
+10: c2.add("ocho", "nueve")	-> 17
+11: c2.sub("ocho", "nueve")	-> -1
+12: c2.mul("ocho", "nueve")	-> 72
+13: c2.div("ocho", "dos")	-> 4.0
+14: c2.factorize("три")		-> [3]
+15: c2.factorize("X")		-> [2, 5]
+16: c2.factorize("ocho")	-> [2, 2, 2]
+17: c2.factorize(3+5)		-> [2, 2, 2]
+18: c2.factorize(27)		-> [3, 3, 3]
+19: c2.factorize(1092)		-> [2, 2, 3, 7, 13]
+20: c2.factorize(32768)		-> [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+21: c2.factorize(10952347)	-> [7, 23, 59, 1153]
+22: c2.factorize(100000039)	-> [100000039]
